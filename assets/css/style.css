@@ -1,74 +1,68 @@
-body{
-    width: 960px;
-
+#guessNumber {
+    font-size: 35px;
+    width: 300px;
+    height: 100px;
+    background-color: green;  
+    display: inline-block;
 }
-#titleBox{
-    height: 200px;
-    width: 400px;
-    background-color:#c67229;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center 
+
+#gameResult {
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    background-color: #33ffff;
+}
+
+#crystalOne {
+    width: 5%;
+}
+
+#crystaltwo {
+    width: 3%;
+}
+
+#crystalthree {
+    width: 5%;
+}
+
+#crystalfour {
+    width: 5%;
+}
+
+#totalScore {
+    background-color: #177d7d;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    padding-right: 100px;
+}
+
+#scoreArea {
+    background-color: #177d7d;
+    color: white;
+    display: block;
+    width: 250px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
+
+#crystalCollector {
+    background-color: #ffb62f;
     color: white;
     font-size: 40px;
-
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
-#parentTitleBox{
-    margin:35px; auto auto 15px;
-    
-}
-#instructionBox{
-    margin: 25px auto auto 10px;
-    width : 600px;
-    height: 500px;
-    background-color: #f9e4cd;
-
-}
-#parentRanWlBox{
-    margin: 25px 0 0 10px;
+#Instructions {
+    background-color: #eeee9a;
     width: 600px;
-    height: 250px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin: 5px;
+}
 
-
-}
-.randomNumberBox{
-    width: 55%;
-    height: 100%;
-    float: left;
-    background-color: #5ac77c;
-    font-size: 50px;
-}
-.winLoseBox{
-    width:40%;
-    height: 100%;
-    float: right;
-    background-color: #4bfdfc;
-
-
-}
-#parentGameButtons{
-    margin:35px auto auto 10px;
-    height: 200px;
-    width: 600px;
-}
-.box{
-    width: 130px;
-    height: 100%;
-    margin:0 10px 0 10px;
-    float: left;
-    overflow: hidden;
-    font-size:50px;
-}
-#parentScore{
-    margin:25px auto auto 10px;
-    width: 330px;
-    height: 250px;
-    position: relative;
-}
-.score{
-    margin:25px auto auto 10px;
-    width: 100%;
-    height: 25%;
-    background-color: #4aaa
+body {
+    background-color: cornflowerblue;
 }
